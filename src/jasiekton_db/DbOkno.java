@@ -55,6 +55,26 @@ public class DbOkno extends javax.swing.JFrame {
         jTextField13 = new javax.swing.JTextField();
         jCheckBox1 = new javax.swing.JCheckBox();
         jButton3 = new javax.swing.JButton();
+        jDialog2 = new javax.swing.JDialog();
+        jButton8 = new javax.swing.JButton();
+        jTextField14 = new javax.swing.JTextField();
+        jTextField15 = new javax.swing.JTextField();
+        jTextField16 = new javax.swing.JTextField();
+        jTextField17 = new javax.swing.JTextField();
+        jTextField18 = new javax.swing.JTextField();
+        jTextField19 = new javax.swing.JTextField();
+        jTextField20 = new javax.swing.JTextField();
+        jTextField21 = new javax.swing.JTextField();
+        jTextField22 = new javax.swing.JTextField();
+        jTextField23 = new javax.swing.JTextField();
+        jTextField24 = new javax.swing.JTextField();
+        jTextField25 = new javax.swing.JTextField();
+        jTextField26 = new javax.swing.JTextField();
+        jCheckBox2 = new javax.swing.JCheckBox();
+        jDialog3 = new javax.swing.JDialog();
+        jTextField27 = new javax.swing.JTextField();
+        jTextField28 = new javax.swing.JTextField();
+        jButton9 = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         jButton1 = new javax.swing.JButton();
@@ -181,6 +201,178 @@ public class DbOkno extends javax.swing.JFrame {
                 .addContainerGap(29, Short.MAX_VALUE))
         );
 
+        jDialog2.setSize(new java.awt.Dimension(515, 228));
+
+        jButton8.setText("jButton8");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
+
+        jTextField14.setEditable(false);
+        jTextField14.setText("ID");
+
+        jTextField15.setEditable(false);
+        jTextField15.setText("Manufacturer");
+
+        jTextField16.setEditable(false);
+        jTextField16.setText("Type");
+
+        jTextField17.setEditable(false);
+        jTextField17.setText("Material");
+
+        jTextField18.setEditable(false);
+        jTextField18.setText("Color");
+
+        jTextField19.setEditable(false);
+        jTextField19.setText("Thickness_mm");
+
+        jTextField20.setEditable(false);
+        jTextField20.setText("Is_tilting");
+
+        jTextField21.setMinimumSize(new java.awt.Dimension(30, 20));
+
+        jTextField22.setMinimumSize(new java.awt.Dimension(30, 20));
+
+        jTextField23.setMinimumSize(new java.awt.Dimension(30, 20));
+
+        jTextField24.setMinimumSize(new java.awt.Dimension(30, 20));
+
+        jTextField25.setMinimumSize(new java.awt.Dimension(30, 20));
+
+        jTextField26.setMinimumSize(new java.awt.Dimension(30, 20));
+
+        javax.swing.GroupLayout jDialog2Layout = new javax.swing.GroupLayout(jDialog2.getContentPane());
+        jDialog2.getContentPane().setLayout(jDialog2Layout);
+        jDialog2Layout.setHorizontalGroup(
+            jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jDialog2Layout.createSequentialGroup()
+                .addComponent(jTextField21, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(jDialog2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jDialog2Layout.createSequentialGroup()
+                        .addComponent(jTextField14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jTextField15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jTextField16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(79, 79, 79)
+                        .addComponent(jTextField17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(26, 26, 26))
+                    .addGroup(jDialog2Layout.createSequentialGroup()
+                        .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addGroup(jDialog2Layout.createSequentialGroup()
+                                .addGap(16, 16, 16)
+                                .addComponent(jTextField18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jTextField19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jDialog2Layout.createSequentialGroup()
+                                .addComponent(jTextField25, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jDialog2Layout.createSequentialGroup()
+                                        .addGap(11, 11, 11)
+                                        .addComponent(jTextField22, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(jDialog2Layout.createSequentialGroup()
+                                        .addGap(32, 32, 32)
+                                        .addComponent(jTextField26, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                        .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jDialog2Layout.createSequentialGroup()
+                                .addGap(84, 84, 84)
+                                .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jTextField20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(jDialog2Layout.createSequentialGroup()
+                                        .addGap(0, 106, Short.MAX_VALUE)
+                                        .addComponent(jButton8))))
+                            .addGroup(jDialog2Layout.createSequentialGroup()
+                                .addGap(106, 106, 106)
+                                .addComponent(jCheckBox2)
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDialog2Layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jTextField23, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(29, 29, 29)
+                                .addComponent(jTextField24, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addContainerGap())))))
+        );
+        jDialog2Layout.setVerticalGroup(
+            jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDialog2Layout.createSequentialGroup()
+                .addGap(6, 6, 6)
+                .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextField21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextField24, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jDialog2Layout.createSequentialGroup()
+                        .addGap(41, 41, 41)
+                        .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jTextField18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jDialog2Layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jCheckBox2))
+                            .addGroup(jDialog2Layout.createSequentialGroup()
+                                .addGap(18, 18, 18)
+                                .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jTextField25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jTextField26, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGap(59, 59, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDialog2Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jButton8)
+                        .addContainerGap())))
+        );
+
+        jDialog3.setSize(new java.awt.Dimension(593, 302));
+
+        jTextField27.setText("Podaj ID okna ktore chces usunac");
+
+        jButton9.setText("Usun");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jDialog3Layout = new javax.swing.GroupLayout(jDialog3.getContentPane());
+        jDialog3.getContentPane().setLayout(jDialog3Layout);
+        jDialog3Layout.setHorizontalGroup(
+            jDialog3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jDialog3Layout.createSequentialGroup()
+                .addGap(131, 131, 131)
+                .addGroup(jDialog3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jTextField28)
+                    .addComponent(jTextField27, javax.swing.GroupLayout.DEFAULT_SIZE, 286, Short.MAX_VALUE))
+                .addContainerGap(176, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDialog3Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton9)
+                .addGap(42, 42, 42))
+        );
+        jDialog3Layout.setVerticalGroup(
+            jDialog3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jDialog3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jTextField27, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(59, 59, 59)
+                .addComponent(jTextField28, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 71, Short.MAX_VALUE)
+                .addComponent(jButton9)
+                .addGap(46, 46, 46))
+        );
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(100, 200));
         setSize(new java.awt.Dimension(839, 351));
@@ -218,8 +410,18 @@ public class DbOkno extends javax.swing.JFrame {
         });
 
         jButton6.setText("Zmodyfikuj");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
 
         jButton7.setText("Usun");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -303,19 +505,14 @@ public class DbOkno extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        boolean isValidInput = false;
 
-    while (!isValidInput) {
         try {
             window_id = Integer.parseInt(jTextField3.getText());
             thickness_mm = Integer.parseInt(jTextField11.getText());
-            isValidInput = true; // Set to true if parsing succeeds to exit the loop
         } catch (NumberFormatException ex) {
-            // Handle NumberFormatException
             jTextArea1.setText("ID lub grubość muszą być liczbami całkowitymi dodatnimi.");
-            // You can add additional handling or messages here if needed
         }
-    }
+    
 
     // Rest of the code...
 
@@ -385,6 +582,94 @@ public class DbOkno extends javax.swing.JFrame {
 
     }//GEN-LAST:event_jButton5ActionPerformed
 
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+         if (connect) {
+            jDialog2.setVisible(true);
+
+        } else {
+            jTextArea1.setText("Nie połączono");
+        }
+
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        try {
+        window_id = Integer.parseInt(jTextField21.getText());
+        thickness_mm = Integer.parseInt(jTextField26.getText());
+    } catch (NumberFormatException ex) {
+        jTextArea1.setText("ID lub grubość muszą być liczbami całkowitymi dodatnimi.");
+        return;  // Zakończ funkcję, jeśli wystąpił błąd parsowania.
+    }
+
+    // Pobierz pozostałe dane wprowadzone przez użytkownika...
+    manufacturer = jTextField22.getText();
+    type = jTextField23.getText();
+    material = jTextField24.getText();
+    color = jTextField25.getText();
+
+    is_t = jCheckBox2.isSelected();
+
+    if (window_id > 0 && thickness_mm > 0 && manufacturer != null && manufacturer.length() < 20
+            && type != null && type.length() < 15 && material != null && material.length() < 15
+            && color != null && color.length() < 10) {
+
+             try {
+                 int parsedWindowId = Integer.parseInt(String.valueOf(window_id));
+                 int parsedThicknessMm = Integer.parseInt(String.valueOf(thickness_mm));
+                 // Sprawdź, czy rekord o podanym ID istnieje
+                 if (jasiekton_db.isWindowIdExist(parsedWindowId)) {
+                     // Modyfikuj rekord
+                     jasiekton_db.Update(parsedWindowId, manufacturer, type, material, color, parsedThicknessMm, is_t);
+                     jDialog1.setVisible(false);
+                     jTextField21.setText("");
+                     jTextField22.setText("");
+                     jTextField23.setText("");
+                     jTextField24.setText("");
+                     jTextField25.setText("");
+                     jTextField26.setText("");
+                     jTextArea1.setText("Zaktualizowano rekord o ID " + parsedWindowId + " w bazie danych.");
+                 } else {
+                     jTextArea1.setText("Rekord o podanym ID nie istnieje.");
+                 }} catch (SQLException ex) {
+                 Logger.getLogger(DbOkno.class.getName()).log(Level.SEVERE, null, ex);
+             }
+       
+
+    } else {
+        jTextArea1.setText("Nieprawidłowe dane. Sprawdź wprowadzone wartości.");
+    }
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+          if (connect) {
+            jDialog3.setVisible(true);
+
+        } else {
+            jTextArea1.setText("Nie połączono");
+        }
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+         try {
+             window_id = Integer.parseInt(jTextField28.getText());
+             if(window_id > 0) {
+                 jasiekton_db.Delete(window_id);
+                 jTextField28.setText("");
+                 jDialog3.setVisible(false);
+                 jTextArea1.setText("Usunieto rekord o ID " + window_id + " w bazie danych.");
+                 
+                 
+             }else{
+                 jTextArea1.setText("Blad danych");
+                 
+             }
+         } catch (SQLException ex) {
+     jTextArea1.setText("Blad");
+     Logger.getLogger(DbOkno.class.getName()).log(Level.SEVERE, null, ex);
+    }                                        
+
+    }                                        
+
     /**
      * @param args the command line arguments
      */
@@ -428,8 +713,13 @@ public class DbOkno extends javax.swing.JFrame {
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
     private javax.swing.JCheckBox jCheckBox1;
+    private javax.swing.JCheckBox jCheckBox2;
     private javax.swing.JDialog jDialog1;
+    private javax.swing.JDialog jDialog2;
+    private javax.swing.JDialog jDialog3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextField jTextField1;
@@ -437,7 +727,22 @@ public class DbOkno extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField11;
     private javax.swing.JTextField jTextField12;
     private javax.swing.JTextField jTextField13;
+    private javax.swing.JTextField jTextField14;
+    private javax.swing.JTextField jTextField15;
+    private javax.swing.JTextField jTextField16;
+    private javax.swing.JTextField jTextField17;
+    private javax.swing.JTextField jTextField18;
+    private javax.swing.JTextField jTextField19;
     private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField20;
+    private javax.swing.JTextField jTextField21;
+    private javax.swing.JTextField jTextField22;
+    private javax.swing.JTextField jTextField23;
+    private javax.swing.JTextField jTextField24;
+    private javax.swing.JTextField jTextField25;
+    private javax.swing.JTextField jTextField26;
+    private javax.swing.JTextField jTextField27;
+    private javax.swing.JTextField jTextField28;
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;

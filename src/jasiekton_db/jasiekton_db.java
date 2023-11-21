@@ -75,7 +75,7 @@ public final class jasiekton_db {
         stat.executeUpdate(command);
     }
 
-    public static void Update(int window_id, String manufacturer, String type, String material, String color, int thickness_mm, String is_tilting) throws SQLException {
+    public static void Update(int window_id, String manufacturer, String type, String material, String color, int thickness_mm, boolean is_tilting) throws SQLException {
         Statement stat = conn.createStatement();
 
         String command = "UPDATE WINDOWS"
