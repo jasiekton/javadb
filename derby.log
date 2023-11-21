@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Tue Nov 21 11:33:20 CET 2023:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-018b-f171-1092-0000039ec788 
+Tue Nov 21 11:55:20 CET 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-018b-f185-3407-0000039ef7d0 
 on database directory /mnt/hgfs/shared/jasiekton_db/db/jasiekton_db with class loader sun.misc.Launcher$AppClassLoader@7f31245a 
 Loaded from file:/mnt/hgfs/shared/jasiekton_db/lib/JAVADB_DRIVER_LABEL/derby.jar
 java.vendor=Oracle Corporation

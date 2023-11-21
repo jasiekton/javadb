@@ -87,21 +87,28 @@ public class DbOkno extends javax.swing.JFrame {
         jDialog1.setLocation(new java.awt.Point(800, 200));
         jDialog1.setSize(new java.awt.Dimension(700, 270));
 
+        jTextField1.setEditable(false);
         jTextField1.setText("ID");
 
+        jTextField2.setEditable(false);
         jTextField2.setText("Manufacturer");
 
+        jTextField7.setEditable(false);
         jTextField7.setText("color");
 
+        jTextField8.setEditable(false);
         jTextField8.setText("Material");
 
+        jTextField9.setEditable(false);
         jTextField9.setText("Type");
 
+        jTextField12.setEditable(false);
         jTextField12.setText("is_tilting");
 
+        jTextField13.setEditable(false);
         jTextField13.setText("thickness_mm");
 
-        jButton3.setText("jButton3");
+        jButton3.setText("Dodaj");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -319,15 +326,12 @@ public class DbOkno extends javax.swing.JFrame {
                             .addComponent(jTextField18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jTextField19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jTextField20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
                         .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jDialog2Layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jCheckBox2))
-                            .addGroup(jDialog2Layout.createSequentialGroup()
-                                .addGap(18, 18, 18)
-                                .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jTextField25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jTextField26, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(jCheckBox2)
+                            .addGroup(jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(jTextField25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jTextField26, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(59, 59, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jDialog2Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
